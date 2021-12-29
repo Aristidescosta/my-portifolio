@@ -1,0 +1,77 @@
+/*Importanção das fonte Quicksand*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*========================
+		Várias globais
+========================*/
+:root{
+	--primary-white: #fff;
+	--primary-orange: #f9ab00;
+	--primary-black: rgba(255, 255, 255, 0);
+	--bs-blue-rgb: rgba(18,18,173,0.82);
+}
+
+
+/*========================
+		NAVBAR
+========================*/
+
+.navbar{
+	padding: 30px 0;
+}
+
+.navbar-light .navbar-brand {
+    color: var(--primary-white)!important;
+    font-weight: bold;
+    font-size:2rem;
+}
+
+/*.logo{
+	width: 16.25rem;
+}
+*/
+
+
+
+.bg-blue{
+	background: var(--bs-blue-rgb)!important;
+}
+
+.navbar-nav{
+	margin-left: auto;
+}
+
+/*===========================
+		Menu link
+===========================*/
+
+nav ul li{
+	text-transform: uppercase;
+}
+
+.navbar-nav > li > a{
+	margin: 0 0.75rem;
+	color: var(--primary-white) !important;
+	border-top:0.1875 solid ;
+	border-top: 0.1875rem solid var(--primary-black);
+	transition: 0.5s all ease-in-out;
+	font-weight: 300;
+
+}
+
+
+.navbar-nav > li > a.active,
+.navbar-nav > li >a.active:focus{
+	border-top: 0.1875rem solid var(--primary-white);
+}
+
+.navbar-nav > li > a:hover{
+	border-top: 0.1875rem solid var(--primary-white);
+}
+
+
